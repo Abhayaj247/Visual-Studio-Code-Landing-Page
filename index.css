@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body{
+    background-color: #0D1117;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: gray; */
+    margin-top: 20px;
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    font-size: 20px;
+}
+.logo{
+    margin-right: 5px;
+}
+.logoName{
+    margin-right: 20px;
+}
+.navLink{
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 15px;
+    text-align: center;
+    color: grey;
+}
+.navLink:hover{
+    color: white;
+}
+.right{
+    padding-right: 200px;
+}
+.right #search{
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    outline: 0;
+    background: transparent;
+    font-size: 16px;
+    margin-right: 5px;
+}
+.right .download{
+    padding: 5px;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+    background: #0078d4;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.banner{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #9ba3b4;
+}
+.banner a{
+    color: #4daafc;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main h1{
+    font-size: 72px;
+    max-width: 1000px;
+    color: #e9eaeb;
+    margin-top: 50px;
+    text-align: center;
+}
+.main p{
+    font-size: 26px;
+    max-width: 720px;
+    text-align: center;
+    color: #9ba3b4;
+    margin-top: 10px;
+}
+.buttons #windows{
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    background: #0078d4;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.buttons #copilot{
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #e9eaeb;
+    font-size: 20px;
+    cursor: pointer;
+}
+.image{
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2rem;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    color: white;
+    padding: 10px 20px;
+}
+.footer .container p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 160%;
+    color:#9ba3b4;
+    margin-top: 10px;
+}
+.footer .languagePanel{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-inline: 2.5rem;
+}
+.languagePanel img{
+    height: 40px;
+    width: auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+hr{
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
